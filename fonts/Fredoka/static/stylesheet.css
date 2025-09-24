@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'Fredoka Expanded';
+    src: url('FredokaExpanded-Light.woff2') format('woff2'),
+        url('FredokaExpanded-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka Expanded';
+    src: url('FredokaExpanded-Bold.woff2') format('woff2'),
+        url('FredokaExpanded-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka Condensed';
+    src: url('FredokaCondensed-Bold.woff2') format('woff2'),
+        url('FredokaCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka Condensed';
+    src: url('FredokaCondensed-SemiBold.woff2') format('woff2'),
+        url('FredokaCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka Condensed';
+    src: url('FredokaCondensed-Medium.woff2') format('woff2'),
+        url('FredokaCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka Expanded';
+    src: url('FredokaExpanded-Medium.woff2') format('woff2'),
+        url('FredokaExpanded-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka Condensed';
+    src: url('FredokaCondensed-Regular.woff2') format('woff2'),
+        url('FredokaCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka Expanded';
+    src: url('FredokaExpanded-Regular.woff2') format('woff2'),
+        url('FredokaExpanded-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka Condensed';
+    src: url('FredokaCondensed-Light.woff2') format('woff2'),
+        url('FredokaCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka SemiCondensed';
+    src: url('FredokaSemiCondensed-Bold.woff2') format('woff2'),
+        url('FredokaSemiCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka SemiCondensed';
+    src: url('FredokaSemiCondensed-SemiBold.woff2') format('woff2'),
+        url('FredokaSemiCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka SemiCondensed';
+    src: url('FredokaSemiCondensed-Regular.woff2') format('woff2'),
+        url('FredokaSemiCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka SemiExpanded';
+    src: url('FredokaSemiExpanded-Medium.woff2') format('woff2'),
+        url('FredokaSemiExpanded-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka Expanded';
+    src: url('FredokaExpanded-SemiBold.woff2') format('woff2'),
+        url('FredokaExpanded-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka SemiExpanded';
+    src: url('FredokaSemiExpanded-Light.woff2') format('woff2'),
+        url('FredokaSemiExpanded-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka SemiCondensed';
+    src: url('FredokaSemiCondensed-Medium.woff2') format('woff2'),
+        url('FredokaSemiCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka SemiExpanded';
+    src: url('FredokaSemiExpanded-Bold.woff2') format('woff2'),
+        url('FredokaSemiExpanded-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka SemiCondensed';
+    src: url('FredokaSemiCondensed-Light.woff2') format('woff2'),
+        url('FredokaSemiCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url('Fredoka-Regular.woff2') format('woff2'),
+        url('Fredoka-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url('Fredoka-Light.woff2') format('woff2'),
+        url('Fredoka-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url('Fredoka-Bold.woff2') format('woff2'),
+        url('Fredoka-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka SemiExpanded';
+    src: url('FredokaSemiExpanded-Regular.woff2') format('woff2'),
+        url('FredokaSemiExpanded-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka SemiExpanded';
+    src: url('FredokaSemiExpanded-SemiBold.woff2') format('woff2'),
+        url('FredokaSemiExpanded-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url('Fredoka-SemiBold.woff2') format('woff2'),
+        url('Fredoka-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url('Fredoka-Medium.woff2') format('woff2'),
+        url('Fredoka-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

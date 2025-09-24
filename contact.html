@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact & Join - Umoja Coding Club</title>
+  <meta name="description" content="Contact Umoja Coding Club or join a class. Send us a message or enroll a learner ages 8–15.">
+  <link rel="canonical" href="https://umojacodingclub.com/contact">
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="preload" href="fonts/Roboto/static/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Fredoka/static/Fredoka-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+
+
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">Umoja Coding Club</a>
+      <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="contact.html" class="active" aria-current="page">Contact / Join</a></li>
+        <li><button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-hero slim">
+    <div class="container">
+      <h1>Get in Touch & Enroll</h1>
+      <p>Questions? Ready to join? Send us a message or complete the enrollment form below.</p>
+    </div>
+  </section>
+
+  <main class="container two-col join-grid" id="join">
+    <form id="join-form" class="card form-card" novalidate>
+      <h2>Join the Club</h2>
+
+      <label>Student Name
+        <input type="text" name="student" required />
+      </label>
+
+      <label>Age
+        <input type="number" name="age" min="8" max="15" required />
+      </label>
+
+      <label>Parent/Guardian Email
+        <input type="email" name="email" required />
+      </label>
+
+      <label>Program
+        <select name="program" required>
+          <option value="">Choose…</option>
+          <option>Scratch</option>
+          <option>VexCode VR</option>
+          <option>Both</option>
+        </select>
+      </label>
+
+      <button class="btn btn-primary" type="submit">Submit</button>
+      <p id="form-message" class="form-message" aria-live="polite"></p>
+    </form>
+
+    <aside class="card club-info">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:info@umojacodingclub.com">info@umojacodingclub.com</a></li>
+        <li>When: Saturdays, 2–4 PM</li>
+        <li>Where: Online (Zoom) / In-Person Lab</li>
+        <li>Bring: Laptop + curiosity!</li>
+      </ul>
+
+    <h3 style="margin-top: 1rem;">Send a Message</h3>
+
+    <form id="contact-form" class="card" style="box-shadow: none; padding: 0; background: transparent;" novalidate>
+    <div class="form-group">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" required />
+    </div>
+
+    <div class="form-group">
+    <label for="contactEmail">Your Email</label>
+    <input type="email" id="contactEmail" name="contactEmail" required />
+    </div>
+
+    <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+
+    <button class="btn btn-secondary" type="submit">Send</button>
+   <p id="contact-message" class="form-message" aria-live="polite"></p>
+  </form>
+
+  <aside>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="programs.html">Programs</a>
+        <a href="contact.html" aria-current="page">Contact / Join</a>
+        <a href="mailto:info@umojacodingclub.com">Email</a>
+      </div>
+      <p>&copy; 2025 Umoja Coding Club. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
